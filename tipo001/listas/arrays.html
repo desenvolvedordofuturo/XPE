@@ -15,6 +15,24 @@
         console.log(carros[2]);
 
         console.log("tamanho do array: " + carros.length);
-        console.log("ultimo elemento do array: " carros[carros.length - 1 ]);
+        console.log("ultimo elemento do array: " + carros[carros.length - 1 ]);
+
+        carros[3] = "Sandero";
+        console.log("ultimo elemento de array: " + carros[carros.length - 1]);
+        
+        carros[carros.length] = "Civic";
+        console.log("ultimo elemento de array: " + carros[carros.length - 1]);
+
+        carros.push("Polo");
+        console.log(carros);
+
+        console.log(carros.pop());
+        console.log(carros);
+
+        carros.unshift("Jetta");
+        console.log(carros);
+
+        carros.log(carros.shift());
+        console.log(carros);
     </script>
 </html>
